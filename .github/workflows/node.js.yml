@@ -3,10 +3,10 @@
 
 name: CI
 
- env:
-     SCREENER_API_KEY: ${{ secrets.SCREENER_API-KEY}}
-     SCREENER_USERNAME: ${{ secrets.SCREENER_USERNAME}}
-     SCREENER_ACCESS_KEY: ${{ secrets.SCREENER_ACCESS_KEY}}
+env:
+    SCREENER_API_KEY: ${{ secrets.SCREENER_API_KEY}}
+    SCREENER_USERNAME: ${{ secrets.SCREENER_USERNAME}}
+    SCREENER_ACCESS_KEY: ${{ secrets.SCREENER_ACCESS_KEY}}
 
 on:
   push:
